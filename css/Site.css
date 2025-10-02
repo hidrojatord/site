@@ -1,0 +1,102 @@
+﻿:root {
+    --light-red: #ff9292;
+    --medium-red: #FF4752;
+    --azul: #0000bd;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-display: swap;
+}
+
+.bg-azul {
+    background-color: var(--azul);
+}
+
+.text-azul {
+    color: var(--azul);
+}
+
+.text-vermelho-medium {
+    color: var(--medium-red);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    transition: .5s ease-in-out;
+    width: 100%;
+    z-index: 99;
+    padding-bottom: 3px !important;
+    padding-top: 3px !important;
+}
+
+.navbar-brand {
+    font-size: 3.5em;
+}
+
+@media(max-width: 424.98px) {
+    .navbar-brand {
+        font-size: 3em;
+    }
+}
+
+#navbarMenu {
+    font-size: 1.5em;
+}
+
+.nav-item {
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+
+.nav-link:hover {
+    color: var(--red) !important;
+}
+
+.navbar-collapse {
+    align-items: center !important;
+    text-align: center !important;
+}
+
+#secaoContato {
+    background-color: var(--medium-red);
+    color: white !important;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+#carouselServicos {
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 0px 15px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+@media (min-width: 576px) {
+    .w-sm-25 {
+        width: 25% !important;
+    }
+
+    .w-sm-50 {
+        width: 50% !important;
+    }
+
+    .w-sm-75 {
+        width: 75% !important;
+    }
+
+    .w-sm-100 {
+        width: 100% !important;
+    }
+
+    .w-sm-auto {
+        width: auto !important;
+    }
+}
